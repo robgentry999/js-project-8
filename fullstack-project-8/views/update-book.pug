@@ -3,7 +3,7 @@ extends layout
 block content
     h1= title
         if(errors)
-            h2.error Ooops! 
+            h2.error Error! 
             ul.error    
                 each error in errors 
                     li= error.message  
